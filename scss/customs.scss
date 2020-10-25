@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(213, 200, 200);
+}
+
+.container-clock {
+    display: flex;
+    height: 200px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: inset -3px -14px 15px white, inset 3px 14px 40px black, -10px -14px 15px white, 3px 14px 40px black;
+    background: rgb(169, 167, 212);
+    background: linear-gradient(90deg, rgba(169, 167, 212, 1) 28%, rgba(0, 212, 255, 1) 38%, rgba(153, 153, 254, 1) 79%);
+    .hours {
+        width: 700px;
+        font-size: 6rem;
+        height: 200px;
+        text-align: end;
+        line-height: 200px;
+    }
+    .minuten {
+        width: 700px;
+        font-size: 6rem;
+        height: 200px;
+        line-height: 200px;
+    }
+}
